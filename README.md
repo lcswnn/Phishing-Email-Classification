@@ -4,7 +4,7 @@ This project utilizes using text as training data for various machine learning m
 
 **Libraries Used:** SKLearn(Random Forest, Decision Tree, MLP Classifier, Pipeline, TfidfVectorizer, Multinomail Naive Bayes, Complement Naive Bayes, LinearSVC), Pandas, MatPlotLib, Numpy
 
-The executable python file in the repository utilizes the LinearSVC model and Tkinter for GUI programming. In the future, I will look to make a web application instead implementing database connections for model training and [possibly Django for web frameworks.
+The executable python file in the repository utilizes the LinearSVC model and Tkinter for GUI programming. In the future, I will look to make a web application instead implementing database connections for model training and possibly Django for web frameworks.
 
 ### Findings
 We found that the LinearSVC and MLP Classifier models are the best when it comes to training on text and text identification. All the models tested were good canidates, but LinearSVC and MLP stood out amongst the rest with a 97-99% accuracy for both every run. Although the MLp Classifier gives LinearSVC a run for its money, the time that it takes for the model to run is too long for the executable script that the user would use. Therefore, LinearSVC was used in the executable script for time purposes.
